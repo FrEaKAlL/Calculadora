@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/sct.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrEaKAlL0121-Calculadora</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="calculadora">
+        <div class="pantalla">
+          <h1>Calculadora</h1>
+          <input type="text" readonly name="pantalla" id="pantalla" value="0">
+        </div>
+        <div class="numeros">
+          <button id="uno" class="numerales">1</button>
+          <button id="dos" class="numerales">2</button>
+          <button id="tres" class="numerales">3</button>
+          <button id="cuatro" class="numerales">4</button>
+          <button id="cinco" class="numerales">5</button>
+          <button id="seis" class="numerales">6</button>
+          <button id="siete" class="numerales">7</button>
+          <button id="ocho" class="numerales">8</button>
+          <button id="nueve" class="numerales">9</button>
+          <button id="punto" class="numerales">.</button>
+          <button id="cero" class="numerales">0</button>
+          <button id="limpia" class="numerales">C</button>
+        </div>
+        <div class="operadores">
+          <button id="suma" class="operador">+</button>
+          <button id="resta" class="operador">-</button>
+          <button id="multi" class="operador">x</button>
+          <button id="divi" class="operador">&#247;</button>
+        </div>
+        <div class="resultado">
+          <button id="igual" class="igual">=</button>
+        </div>
+      </div>
+    </div>
+    <button id="hitorial" class="hitorial">Historial</button>
+    <div id="ltsHistorial" class="ltsHistorial"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
