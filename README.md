@@ -10,3 +10,5 @@ Algunas de las acciones realizadas por esta calculadora son:
 Link de versión actual (http://s-calalpa.com)
 
 ![Imagen de la Calculadora](image.png)
+
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/FrEaKAlL/Calculadora/master)
